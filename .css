@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    overflow: hidden;
+    text-align: right;
+    background-color: #1f2025;
+    height: 10vh;
+    width: 100%
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    text-align: right;
+    
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: block;
+    color: white;
+    padding: 28px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        float: none;
+        text-align: center;
+        display: flex;
+    }
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+}
+
+h2 {
+    color: #000000;
+}
+
+form {
+    background-color: #ffffff75;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    height: 60%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #1f2025;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+body.Formulaire {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background: rgb(207,20,77);
+    background: linear-gradient(90deg, rgba(207,20,77,0.9669117647058824) 0%, rgba(21,157,222,0.9585084033613446) 24%, rgba(132,214,111,1) 62%, rgba(155,63,212,1) 82%, rgba(16,186,221,0.9024859943977591) 100%);
+}
+h1 {
+    color: #fff;
+    font-size: 23px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow: hidden;
+    text-align: right;
+    background-color: #1f2025;
+    height: 10vh;
+    width: 100%
+    
+}
